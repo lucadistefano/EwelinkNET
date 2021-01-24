@@ -6,7 +6,7 @@ namespace EwelinkNet.Constants
 {
     internal static class DevicesUiid
     {
-        private static readonly List<(string? name, int? uuid)> data = new List<(string? name, int? uuid)>
+        private static readonly List<(string name, int uuid)> data = new List<(string name, int uuid)>
         {
             ("SOCKET", 1),
             ("SOCKET_2", 2),
@@ -66,7 +66,7 @@ namespace EwelinkNet.Constants
 
         internal static int? GetDeviceUiidByName(string name) => data.FirstOrDefault(x => x.name == name).uuid;
 
-        internal static string? GetDeviceNameByUiid(int uiid) => data.FirstOrDefault(x => x.uuid == uiid).name;
+        internal static string GetDeviceNameByUiid(int uiid) => data.FirstOrDefault(x => x.uuid == uiid).name;
 
     }
 }

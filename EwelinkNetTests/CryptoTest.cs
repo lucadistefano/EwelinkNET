@@ -6,7 +6,7 @@ namespace EwelinkNet.Tests
     public class CryptoTest
     {
         private readonly ITestOutputHelper output;
-        private readonly dynamic testData;
+        //private readonly dynamic testData;
 
         const string message = "{\"pulses\":[{\"pulse\":\"off\",\"width\":15000,\"outlet\":0},{\"pulse\":\"off\",\"width\":1000,\"outlet\":1},{\"pulse\":\"off\",\"width\":1000,\"outlet\":2}]}";
 

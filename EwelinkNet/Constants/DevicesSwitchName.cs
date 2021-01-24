@@ -6,7 +6,7 @@ namespace EwelinkNet.Constants
 {
     internal static class DevicesSwitchName
     {
-        private static Dictionary<string?, string?> data = new Dictionary<string?, string?> {
+        private static Dictionary<string, string> data = new Dictionary<string, string> {
             {"SWITCH_CHANGE", "switch"},
             {"SOCKET", "switch"},
             {"THERMOSTAT", "switch"},
