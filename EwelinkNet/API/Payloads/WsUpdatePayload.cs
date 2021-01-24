@@ -1,8 +1,5 @@
 ﻿using EwelinkNet.Helpers;
-using System;
-using System.Collections.Generic;
 using System.Dynamic;
-using System.Text;
 
 namespace EwelinkNet.Payloads
 {

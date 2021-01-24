@@ -1,10 +1,6 @@
-﻿using EwelinkNet.Classes;
-using EwelinkNet.Helpers;
+﻿using EwelinkNet.Helpers;
 using Newtonsoft.Json;
 using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using EwelinkNet.Constants;

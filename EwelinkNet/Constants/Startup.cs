@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace EwelinkNet.Constants
+﻿namespace EwelinkNet.Constants
 {
     internal static class Startup
     {

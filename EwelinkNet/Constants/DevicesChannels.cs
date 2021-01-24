@@ -1,13 +1,11 @@
 ﻿using EwelinkNet.Helpers.Extensions;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace EwelinkNet.Constants
 {
     internal class DeviceChannels
     {
-        private static Dictionary<string?, int?> data = new Dictionary<string?, int?> {
+        private static Dictionary<string, int> data = new Dictionary<string, int> {
             {"SOCKET", 1},
             {"SWITCH_CHANGE", 1},
             {"GSM_UNLIMIT_SOCKET", 1},

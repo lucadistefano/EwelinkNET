@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Text;
-using Xunit;
+﻿using Xunit;
 using Xunit.Abstractions;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-using System.Dynamic;
 
 namespace EwelinkNet.Tests
 {

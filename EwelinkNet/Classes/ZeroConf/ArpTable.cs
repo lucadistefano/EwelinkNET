@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Linq;
-using System.Runtime.InteropServices;
-using EwelinkNet.Helpers.Extensions;
 using System.IO;
 using Newtonsoft.Json;
 

@@ -1,13 +1,8 @@
 ﻿using EwelinkNet.API.Responses;
 using EwelinkNet.Helpers.Extensions;
 using EwelinkNet.Payloads;
-using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Dynamic;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using WebSocketSharp;
 using Mapster;
 using EwelinkNet.Classes.Events;

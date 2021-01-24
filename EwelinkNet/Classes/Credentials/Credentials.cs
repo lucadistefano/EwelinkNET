@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace EwelinkNet.Classes
+﻿namespace EwelinkNet.Classes
 {
     public class Credentials
     {

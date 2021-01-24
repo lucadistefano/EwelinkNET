@@ -1,12 +1,6 @@
-using System;
 using Xunit;
-using EwelinkNet;
-using System.Threading.Tasks;
 using System.Dynamic;
-using EwelinkNet.Classes;
-using System.Linq;
 using EwelinkNet.Helpers.Extensions;
-using System.Text.Json;
 using Xunit.Abstractions;
 
 namespace EwelinkNet.Tests
