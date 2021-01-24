@@ -90,6 +90,19 @@ namespace EwelinkNet.Tests
             device.TurnOff(1);
         }
 
+        [Fact]
+        public async void GetChannelName()
+        {
+            var ewelink = new Ewelink(Email, Password, Region);
+            var credentials = await ewelink.GetCredentials();
+            await ewelink.GetDevices();
+
+            var device = ewelink.Devices.First(x => x.deviceid == deviceId) as MultiSwitchDevice;
+            var name = device.GetChannelName(0);
+            Assert.NotNull(name);
+
+            output.WriteLine(name);
+        }
 
     }
 }
