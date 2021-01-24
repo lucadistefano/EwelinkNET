@@ -29,6 +29,12 @@ namespace EwelinkNet.Classes
         //public void TurnOnLAN() => SetStateLAN("on");
         //public void TurnOffLAN() => SetStateLAN("off");
 
+        public string GetChannelName(int outlet)
+        {
+            if (outlet >= NumChannels) return null;
+            return (string)((IDictionary<string, object>)tags.ck_channel_name)[outlet.ToString()];
+        }
+
         public string GetState(int outlet)
         {
             if (outlet >= NumChannels) return null;
