@@ -55,7 +55,7 @@ namespace EwelinkNet.Classes
                     case "GSM_SOCKET_2": newDevice = new MultiSwitchDevice(); break;
                     case "GSM_SOCKET_3": newDevice = new MultiSwitchDevice(); break;
                     case "GSM_SOCKET_4": newDevice = new MultiSwitchDevice(); break;
-                    case "POWER_DETECTION_SOCKET": newDevice = new SwitchDevice(); break;
+                    case "POWER_DETECTION_SOCKET": newDevice = new PowerSwitchDevice(); break;
                     case "LIGHT_BELT": newDevice = new SwitchDevice(); break;
                     case "FAN_LIGHT": newDevice = new SwitchDevice(); break;
                     case "EZVIZ_CAMERA": newDevice = new SwitchDevice(); break;
