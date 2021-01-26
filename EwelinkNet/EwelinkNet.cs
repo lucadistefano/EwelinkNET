@@ -105,10 +105,10 @@ namespace EwelinkNet
         {
             if (webSocket.IsConnected) return;
             webSocket.Connect(Credentials.at, Devices[0].apikey, Credentials.region);
-            webSocket.OnMessage += handleWebsocketResponse;
+            webSocket.OnMessage += HandleWebsocketResponse;
         }
 
-        private void handleWebsocketResponse(object sender, EventWebsocketMessage e)
+        private void HandleWebsocketResponse(object sender, EventWebsocketMessage e)
         {
             var response = e.Message as WsUpdateResponse;
             if (response == null) return;
@@ -123,7 +123,7 @@ namespace EwelinkNet
         public void CloseWebSocket()
         {
             if (!webSocket.IsConnected) return;
-            webSocket.OnMessage -= handleWebsocketResponse;
+            webSocket.OnMessage -= HandleWebsocketResponse;
             webSocket.Disconnect();
         }
     }

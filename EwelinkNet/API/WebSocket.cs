@@ -37,7 +37,6 @@ namespace EwelinkNet.API
             websocket.Send(wsUpdatePayload.AsJson());
         }
 
-
         public void Disconnect()
         {
             websocket.Close();

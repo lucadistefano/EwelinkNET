@@ -97,7 +97,6 @@ namespace EwelinkNet.Classes
                     case "fan":
                     case "lock":
                     case "key": newDevice = new SwitchDevice(); break;
-
                 }
             }
 
